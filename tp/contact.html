@@ -13,8 +13,13 @@
    <!-- habituellement action="urlCoteServeur"
         ici action="#" pour cours html simplifié sans java ni php -->
    <form action="#" method="get" >
-    nom : <input type="text" name="nom" /> <br/>
-	prenom : <input type="text" name="prenom" /> <br/>
+    nom : <input type="text" name="nom" 
+	             placeholder="nom requis" 
+				 pattern="[A-Z].+"	required /> <br/>
+	prenom : <input type="text" name="prenom" required minlength='3' />
+	        <!-- <input type="text" name="prenom" required minlength='3'
+	                oninvalid="this.setCustomValidity('Au moins 3 caracteres')"
+                    oninput="this.setCustomValidity('')"/> --> <br/>
 	sujet : <select size="1" name="sujet" >
                 <option>nouveau contact</option>
 			    <option  value="claim">reclamation</option>
