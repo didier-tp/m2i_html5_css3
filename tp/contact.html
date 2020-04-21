@@ -15,8 +15,12 @@
    <form action="#" method="get" >
     nom : <input type="text" name="nom" /> <br/>
 	prenom : <input type="text" name="prenom" /> <br/>
-	sujet : <input type="text" name="sujet" /> <br/>
-	question : <input type="text" name="question" /> <br/>
+	sujet : <select size="1" name="sujet" >
+                <option>nouveau contact</option>
+			    <option  value="claim">reclamation</option>
+				<option selected >suggestion</option>
+             </select> 	<br/>
+	question : <input type="text" name="question" value="q1" /> <br/>
 	<!-- bouton poussoir avec type="submit" value="envoyer" -->
 	     <input type="submit" value="envoyer infos contact" />
    </form>
