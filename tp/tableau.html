@@ -7,9 +7,18 @@
    <h3>page avec tableau</h3>
    <table border="1">
       <caption>titre du tableau</caption>
-      <tr><th>technologie</th><th>caracteristiques</th></tr>
-	  <tr><td>html</td><td>page web</td></tr>
-	  <tr><td>http</td><td>protocole</td></tr>
+	  <thead>
+        <tr><th rowspan="2">technologie</th><th colspan='2'>caracteristiques</th></tr>
+		<tr>                                <th>essentiel</th><th>detail</th></tr>
+	  </thead>
+	  <tbody>
+	    <tr><td>html</td><td>page web </td><td>hypertexte </td></tr>
+	    <tr><td>http</td><td>protocole</td><td>reseau</td></tr>
+	  </tbody>
    </table>
+   <hr/>
+   <img src="image1.jpg" alt="texte alternatif image1" title="image1" />
+   <hr/>
+   <img src="image1.jpg" width="50px" height="50px" />
 </body>
 </html>
