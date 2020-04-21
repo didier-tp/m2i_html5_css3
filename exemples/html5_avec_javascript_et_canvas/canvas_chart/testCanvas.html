@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>canvas api</title>
+<script>
+	
+function init() {
+
+var canvasElement = document.getElementById("myCanvas");
+var ctx = canvasElement.getContext("2d");
+
+//cercle
+var c={ xC:200,   yC:100,   r:50,
+   fillColor:'red',   lineWidth:4,   lineColor:'#003300'
+};
+ctx.beginPath(); //start path with upcoming attributes (ctx.lineWith , ctx.strokeStyle, ...)
+ctx.arc(c.xC, c.yC, c.r, 0 /*startAngle*/, 2 * Math.PI /*endAngle*/, false);
+     if(c.fillColor != null){
+         ctx.fillStyle = c.fillColor;
+        ctx.fill();
+       }
+ctx.lineWidth = c.lineWidth;
+ctx.strokeStyle =  c.lineColor;
+ctx.stroke(); //draw path (arc or ...)
+
+//line
+var l={  x1:80,   y1:40,   x2:150,   y2:70,
+   lineWidth:4,   lineColor:'blue'
+};
+ctx.beginPath(); //start or reset path
+ctx.moveTo(l.x1,l.y1);
+ctx.lineTo(l.x2,l.y2);
+ctx.strokeStyle =  l.lineColor;
+ctx.lineWidth = l.lineWidth;
+ctx.stroke(); //draw path
+
+//rectangle
+var r={  x1:80,   y1:100,   width:50,   height:120,
+   fillColor:'orange',   lineWidth:4,   lineColor:'green'
+};
+ctx.beginPath();
+ctx.rect(r.x1,r.y1,r.width,r.height);
+    if(r.fillColor != null){
+         ctx.fillStyle = r.fillColor;
+         ctx.fill();
+       }
+ctx.strokeStyle =  r.lineColor;
+ctx.lineWidth = r.lineWidth;
+ctx.stroke(); //draw path
+  
+}
+</script>
+</head>
+<body onload="init()">
+<h2>canvas api</h2>
+ <canvas id="myCanvas" width="400" height="400"></canvas>
+
+</body>
+</html>
