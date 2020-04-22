@@ -12,20 +12,26 @@
    </ul>
    <!-- habituellement action="urlCoteServeur"
         ici action="#" pour cours html simplifié sans java ni php -->
-   <form action="#" method="get" >
-    nom : <input type="text" name="nom" 
+   <form action="#" method="get" enctype="multipart/form-data">
+    <label for="nom">nom :</label> <input type="text" name="nom" 
 	             placeholder="nom requis" 
 				 pattern="[A-Z].+"	required /> <br/>
-	prenom : <input type="text" name="prenom" required minlength='3' />
+	<label for="prenom">prenom :</label> <input type="text" name="prenom" required minlength='3' />
 	        <!-- <input type="text" name="prenom" required minlength='3'
 	                oninvalid="this.setCustomValidity('Au moins 3 caracteres')"
                     oninput="this.setCustomValidity('')"/> --> <br/>
-	sujet : <select size="1" name="sujet" >
+	<label for="password">password:</label>  <input type="password" name="password" />   <br/>
+	<label>sujet :</label> <select size="1" name="sujet" >
                 <option>nouveau contact</option>
 			    <option  value="claim">reclamation</option>
 				<option selected >suggestion</option>
              </select> 	<br/>
-	question : <input type="text" name="question" value="q1" /> <br/>
+	<label>publicité demandée :</label> <input type="checkbox" name="pub" value="oui" /> <br/>
+	<label>genre :</label> <input type="radio" name="genre" value="Mr" checked />Mr   
+	<input type="radio" name="genre" value="Mme" />Mme <br/> 
+	<label>question :</label> <textarea name="question" > 
+	           </textarea> <br/>
+	<label>fichier :</label> <input type="file" name="fichier" />
 	<!-- bouton poussoir avec type="submit" value="envoyer" -->
 	     <input type="submit" value="envoyer infos contact" />
    </form>
