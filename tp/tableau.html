@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="css/styles2.css" />
  <title>tableau</title>
 </head>
 <body>
    <h3>page avec tableau</h3>
-   <table border="1">
-      <caption>titre du tableau</caption>
-	  <thead>
-        <tr><th rowspan="2">technologie</th><th colspan='2'>caracteristiques</th></tr>
-		<tr>                                <th>essentiel</th><th>detail</th></tr>
-	  </thead>
-	  <tbody>
-	    <tr><td>html</td><td>page web </td><td>hypertexte </td></tr>
-	    <tr><td>http</td><td>protocole</td><td>reseau</td></tr>
-	  </tbody>
-   </table>
+   <div class="cadre auCentre">
+       <p class="auCentre">ligne au dessus du tableau</p>
+	   <table border="1" class="auCentre assezLarge" >
+		  <caption>titre du tableau</caption>
+		  <thead>
+			<tr><th rowspan="2">technologie</th><th colspan='2'>caracteristiques</th></tr>
+			<tr>                                <th>essentiel</th><th>detail</th></tr>
+		  </thead>
+		  <tbody>
+			<tr><td>html</td><td>page web </td><td>hypertexte </td></tr>
+			<tr><td>http</td><td>protocole</td><td>reseau</td></tr>
+		  </tbody>
+	   </table>
+  </div>
+   <hr/>
+   <div id="divA"> texte qui va bien </div>
    <hr/>
    <img src="images/image1.jpg" alt="texte alternatif image1" 
         title="image1" />

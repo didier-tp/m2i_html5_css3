@@ -1,0 +1,25 @@
+@import 'styles-globaux.css';
+
+body { background-color : lightgrey; }
+.enEvidence { font-weight: bold; }
+option[selected] { color : red; }
+caption { text-decoration : underline; font-weight : bold; }
+.auCentre { text-align: center ; }
+.assezLarge { width : 80% }
+.cadre{ border-color : black;
+		border-width : 1px;
+		border-style : solid; }
+table.auCentre { margin: auto; }
+
+#divA{
+		border-color : green;
+		border-width : 3px;
+		border-style : solid;
+		margin : 0.5em;
+		padding : 1em;
+		background-color : yellow;
+		color : blue;
+		font-family : Arial;
+		font-size: 2em;
+		text-transform : uppercase;
+	}
