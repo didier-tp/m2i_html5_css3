@@ -1,0 +1,3 @@
+https://developer.mozilla.org/fr/docs/Web/CSS/float
+https://developer.mozilla.org/fr/docs/Web/CSS/clear
+https://developer.mozilla.org/fr/docs/Web/CSS/overflow
