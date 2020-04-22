@@ -1,35 +1,34 @@
 HTML5 et CSS3
 
-Ce matin, les comptes 260 ne fonctionnent pas.
-On est revenu sur la salle 250
+De 12h45 à 14h, les comptes 290 ont été testés.
+On va se reconnecter sur la salle 290
 ------------------
 
 
 ===========================================
-paris-form-260@labom2iformation.onmicrosoft.com
+paris-form-290@labom2iformation.onmicrosoft.com
 =====
 Mot de passe théorique : P@ssw0rd
-Mot de passe réel : ???? (en attente ) !!!!
 ==============
-paris-user-261@labom2iformation.onmicrosoft.com
+paris-user-291@labom2iformation.onmicrosoft.com
 		
 
-paris-user-262@labom2iformation.onmicrosoft.com
+paris-user-292@labom2iformation.onmicrosoft.com
 		
 
-paris-user-263@labom2iformation.onmicrosoft.com
+paris-user-293@labom2iformation.onmicrosoft.com
 		
 
-paris-user-264@labom2iformation.onmicrosoft.com
+paris-user-294@labom2iformation.onmicrosoft.com
 		
 
-paris-user-265@labom2iformation.onmicrosoft.com
+paris-user-295@labom2iformation.onmicrosoft.com
 		
 
-paris-user-266@labom2iformation.onmicrosoft.com
+paris-user-296@labom2iformation.onmicrosoft.com
 		
 
-paris-user-267@labom2iformation.onmicrosoft.com
+paris-user-297@labom2iformation.onmicrosoft.com
 		
 
-paris-user-268@labom2iformation.onmicrosoft.com
+paris-user-298@labom2iformation.onmicrosoft.com
