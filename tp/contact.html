@@ -5,29 +5,36 @@
  <link rel="stylesheet" type="text/css" href="css/styles2.css" />
 </head>
 <body>
-   <p class="enEvidence">page contact</p>
+   <h1 class="enEvidence">page contact</h1>
    <ul>
      <li><a href="index.html">retour index</a></li>
-     <li><a href="#milieu">vers milieu , &eacute;</a></li>
-     <li><a href="#fin">vers fin</a></li>
+     <li><a href="#milieu">vers milieu de cette page</a></li>
+     <li><a href="#fin">vers fin de cette page</a></li>
    </ul>
    <!-- habituellement action="urlCoteServeur"
         ici action="#" pour cours html simplifié sans java ni php -->
    <form action="#" method="get" enctype="multipart/form-data">
-    <label for="nom">nom :</label> 
-	<input type="text" name="nom" size="48"
-	             placeholder="nom requis" 
-				 pattern="[A-Z].+"	required /> <br/>
-				 
-	<label for="prenom">prenom :</label> 
-	<input type="text" name="prenom" required minlength='2' />
-	        <!-- <input type="text" name="prenom" required minlength='3'
-	                oninvalid="this.setCustomValidity('Au moins 3 caracteres')"
-                    oninput="this.setCustomValidity('')"/> --> <br/>
+	<fieldset><legend >votre identité</legend>
+		<label for="nom">nom :</label> 
+		<input type="text" name="nom" size="48"
+					placeholder="nom requis" 
+					pattern="[A-Z].+"	required /> <br/>
 					
-	<label for="password">password:</label>  
-	<input type="password" name="password" />   <br/>
+		<label for="prenom">prenom :</label> 
+		<input type="text" name="prenom" required minlength='2' />
+				<!-- <input type="text" name="prenom" required minlength='3'
+						oninvalid="this.setCustomValidity('Au moins 3 caracteres')"
+						oninput="this.setCustomValidity('')"/> --> <br/>
+		
+		<label for="password">password:</label>  
+		<input type="password" name="password" />   <br/>
 	
+		<label>genre :</label> 
+	    <input type="radio" name="genre" value="Mr" checked />Mr   
+	    <input type="radio" name="genre" value="Mme" />Mme <br/> 
+	</fieldset>				
+	
+	<fieldset><legend >communication</legend>
 	<label>sujet :</label> 
 	<select size="1" name="sujet" >
                 <option>nouveau contact</option>
@@ -35,25 +42,20 @@
 				<option selected >suggestion</option>
              </select> 	<br/>
 			 
-	<label>publicité demandée :</label> 
-	<input type="checkbox" name="pub" value="oui" /> <br/>
-	
-	<label>genre :</label> 
-	<input type="radio" name="genre" value="Mr" checked />Mr   
-	<input type="radio" name="genre" value="Mme" />Mme <br/> 
-	
-	<label>question :</label> 
-	<textarea name="question" > 
-	           </textarea> <br/>
-			   
-	<label>fichier :</label> 
-	<input type="file" name="fichier" /> <br/>
-	
+		<label>publicité demandée :</label> 
+		<input type="checkbox" name="pub" value="oui" /> <br/>
+		
+		<label>question :</label> 
+		<textarea name="question" > 
+				</textarea> <br/>
+				
+		<label>fichier :</label> 
+		<input type="file" name="fichier" /> <br/>
+   </fieldset>
 	<!-- bouton poussoir avec type="submit" value="envoyer" -->
 	     <input type="submit" value="envoyer infos contact" />
    </form>
-   
-   
+  <hr/> 
    <a name="milieu">milieu</a>
     <p>...</p> <p>...</p>  <p>...</p><p>...</p>  <p>...</p>
    <p>...</p> <p>...</p>  <p>...</p><p>...</p>  <p>...</p>

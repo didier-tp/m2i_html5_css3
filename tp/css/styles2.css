@@ -1,15 +1,24 @@
 @import 'styles-globaux.css';
 
 body { background-color : lightgrey; }
+
 .enEvidence { font-weight: bold; }
+
 option[selected] { color : red; }
+
 caption { text-decoration : underline; font-weight : bold; }
+
 .auCentre { text-align: center ; }
 .assezLarge { width : 80% }
+
 .cadre{ border-color : black;
 		border-width : 1px;
 		border-style : solid; }
 table.auCentre { margin: auto; }
+
+.pair { background-color : rgb(248, 206, 128); }
+.impair { background-color : rgb(154, 231, 231); }
+thead th { background-color : yellow; font-size : larger; }
 
 #divA{
 		border-color : green;

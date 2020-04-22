@@ -4,16 +4,22 @@
  <title>index</title>
  <link rel="stylesheet" type="text/css" href="css/styles.css" />
  <style type="text/css">
-    a { font-style : italic ; }
+    a { font-style : italic ; font-weight: bold;}
  </style>
  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
 <body>
   <header>
-   <h1>Bienvenue dans la formation <i>HTML5</i> / CSS3</h1> 
+   <h1>Bienvenue dans la formation <i>HTML5</i> / CSS3</h1>
   </header> 
+  <section id="idSectionLiens"> 
+      <h2>Menu (navigation)</h2>
+      <a href="contact.html"> contact </a>	<br/>
+      <a href="tableau.html"> tableau </a>	<br/>
+      <a href="media.html"> audio et video </a>	<br/>
+   </section>
   <section id="idSection1">  
-   <h2>sous titre</h2>
+   <h2>Exemples simples de mise en forme (via css)</h2>
    <p> ligne1 du paragraphe <br/> ligne2 du pragraphe </p>
    <p id="idP1">paragraphe 1</p>
    <p id="idP2">paragraphe 2</p>
@@ -22,11 +28,7 @@
    <p >paragraphe 5</p>
    <div class="enEvidence"> texte de div </div>
 </section>
-   <a href="contact.html"> contact </a>	<br/>
-   <a href="tableau.html"> tableau </a>	<br/>
-   <a href="media.html"> audio et video </a>	<br/>
-   <a href="http://www.m2iformation.fr" target="_blank"> M2i formation </a>	<br/>
-   <div style="font-weight:bold">
+<section  style="font-weight:bold">
 	   <h2>principales couleurs</h2>
 	   <ul>
 			<li>rouge</li>	
@@ -42,12 +44,14 @@
 			<li>Allemagne</li>
 			<!-- commentaire au sein d'une page html -->
 	   </ol>
-   </div>
-   <hr/>
-   <div style="color:red;font-style:italic">divA</div><div>divB</div>
-   <span>spanA</span><span style="color:green" >spanB</span>
+   </section>
+   
    <footer>
-       mentions légales , liens vers site externes
+         <hr/>
+         <div style="color:red;font-style:italic">divA</div><div>divB</div>
+         <span>spanA</span><span style="color:green" >spanB</span> <br/>
+       mentions légales <br/>
+       liens vers site externes :<a href="http://www.m2iformation.fr" target="_blank"> M2i formation </a>
    </footer>
    
 </body>
