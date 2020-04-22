@@ -1,0 +1,15 @@
+highlight :
+https://www.dafont.com/fr/
+https://dl.dafont.com/dl/?f=highlight_3
+
+allura:
+https://www.fontsquirrel.com/fonts/list/tag/elegant
+https://www.fontsquirrel.com/fonts/download/allura
+
+____________________
+https://www.fontsquirrel.com/tools/webfont-generator 
+(mode expert avevec svg)
+--> zip -->allura-regular-webfont... 
+et stylesheet.css renommmé allura-webfont.css
+with font-family = alluraregular
+et avec @import 'font/allura-webfont' dans autre .css
