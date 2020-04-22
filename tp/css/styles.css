@@ -1,4 +1,8 @@
 h1{ color: red; text-decoration : underline }
 p { color: green; }
 #idP1 { color: blue; }
+header { background-color: lightgrey ; }
+footer {  background-color: black ; color : white ; }
+#idSection1 { font-style : italic ; }
+
 .enEvidence { text-decoration: underline; }

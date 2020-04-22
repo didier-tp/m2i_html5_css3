@@ -4,7 +4,7 @@ De 12h45 à 14h, les comptes 290 ont été testés.
 On va se reconnecter sur la salle 290
 ------------------
 
-
+www.office.com (nouvelle fenetre privé chrome)
 ===========================================
 paris-form-290@labom2iformation.onmicrosoft.com
 =====
