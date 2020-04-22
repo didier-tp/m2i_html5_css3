@@ -1,5 +1,11 @@
 HTML5 et CSS3
 
+Ce matin, les comptes 260 ne fonctionnent pas.
+On est revenu sur la salle 250
+------------------
+
+
+===========================================
 paris-form-260@labom2iformation.onmicrosoft.com
 =====
 Mot de passe théorique : P@ssw0rd
