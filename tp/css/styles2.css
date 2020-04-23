@@ -39,3 +39,10 @@ thead th { background-color : yellow; font-size : larger; }
 		font-size: 2em;
 		text-transform : uppercase;
 	}
+	
+@media screen and (max-width : 600px ){
+
+   table { display : none ; }
+   h3 { font-size : smaller;}
+}	
+	
