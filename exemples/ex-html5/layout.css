@@ -34,7 +34,7 @@
 #mainHeader  {  background-color:#FF9900; text-align:center;  }
 #mainNav     {  background-color : #cccccc;  }
 
-#mainSideMenu { float:left; width:240px; background-color:#FF3366;  overflow:auto; }
+#mainSideMenu { float:left; width:240px;  background-color:#FF3366;  overflow:auto; }
 /* margin-left de #mainContent doit etre un peu plus grand que width de #mainSideMenu flottant  */
 #mainContent { margin-left:245px; background-color:#9966FF; }
 
