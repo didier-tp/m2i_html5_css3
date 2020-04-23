@@ -2,7 +2,8 @@
 
 body { background-color : lightgrey; }
 /* utile dans version sans bootstrap-css */
-label { width:8em; display: inline-block; } 
+label { width:8em; display: inline-block; }
+label:after { content: " :" } 
 
 .enEvidence { font-weight: bold; }
 

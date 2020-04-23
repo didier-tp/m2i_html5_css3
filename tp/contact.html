@@ -18,41 +18,41 @@
         ici action="#" pour cours html simplifié sans java ni php -->
    <form action="#" method="get" enctype="multipart/form-data">
 	<fieldset><legend >votre identité</legend>
-		<label for="nom">nom :</label> 
+		<label for="nom">nom</label> 
 		<input type="text" name="nom" size="48"
 					placeholder="nom requis" 
 					pattern="[A-Z].+"	required /> <br/>
 					
-		<label for="prenom">prenom :</label> 
+		<label for="prenom">prenom</label> 
 		<input type="text" name="prenom" required minlength='2' />
 				<!-- <input type="text" name="prenom" required minlength='3'
 						oninvalid="this.setCustomValidity('Au moins 3 caracteres')"
 						oninput="this.setCustomValidity('')"/> --> <br/>
 		
-		<label for="password">password:</label>  
+		<label for="password">password</label>  
 		<input type="password" name="password" />   <br/>
 	
-		<label>genre :</label> 
+		<label>genre </label> 
 	    <input type="radio" name="genre" value="Mr" checked />Mr   
 	    <input type="radio" name="genre" value="Mme" />Mme <br/> 
 	</fieldset>				
 	
 	<fieldset><legend >communication</legend>
-	<label>sujet :</label> 
+	<label>sujet </label> 
 	<select size="1" name="sujet" >
                 <option>nouveau contact</option>
 			    <option  value="claim">reclamation</option>
 				<option selected >suggestion</option>
              </select> 	<br/>
 			 
-		<label>publicité :</label> 
+		<label>publicité </label> 
 		<input type="checkbox" name="pub" value="oui" />demandée  <br/>
 		
-		<label>question :</label> 
+		<label>question </label> 
 		<textarea name="question" > 
 				</textarea> <br/>
 				
-		<label>fichier :</label> 
+		<label>fichier </label> 
 		<input type="file" name="fichier" /> <br/>
    </fieldset>
 	<!-- bouton poussoir avec type="submit" value="envoyer" -->
